@@ -34,7 +34,7 @@ header nav ul {
 
 header nav ul li {
   display: inline-block;
-  float: left;
+  float: none;
   list-style: none;
   padding: 0 16px;
 }
@@ -45,71 +45,10 @@ header nav ul li a {
   text-transform: uppercase;
 }
 
-.index-banner {
+.hero-banner {
   width: 100%;
   height: calc(100vh - 100px);
   background-image: url(./images/photo-shoot-red.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-
-/* .nav-section {
-  background-color: #f3f3f3;
-  width: 100px;
-  height: 100px;
-}
-
-.nav-section .name-logo {
-  font-size: 24px;
-} */
-
-/* li,
-a {
-  font-size: 16px;
-  color: black;
-  text-decoration: none;
-}
-
-.nav-section {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px, 10%;
-}
-
-.name-logo {
-  cursor: pointer;
-  transition: all 0.5s ease 0s;
-  font-size: 25px;
-}
-
-.name-logo:hover {
-  color: forestgreen
-}
-
-.nav-bar {
-  list-style: none;
-}
-
-.nav-bar li {
-  display: inline-block;
-  padding: 0px 20px;
-}
-
-.nav-bar li a {
-  transition: all 0.5s ease 0s;
-}
-
-.nav-bar li a:hover {
-  color: forestgreen;
-}
-
-.hero-section {
-  width: 100%;
-  height: calc(100vh - 700px);
-  background-image: url(./images/heroCropped.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -119,52 +58,23 @@ a {
 .vert-center {
   display: table-cell;
   vertical-align: middle;
-
 }
 
-.hero-section h2 {
+.hero-banner h2 {
   font-size: 60px;
-  font-weight: 800px;
+  color: #fff;
+  font-weight: 900;
+  line-height: 70px;
   text-align: center;
-  text-shadow: 1px 1px 6px grey;
-  color:white;
-  padding-bottom: 100px;
+  text-shadow: 1px 1px 1px #111;
+  padding-bottom: 20px;
 }
 
-.hero-section h3 {
-  font-size: 24px;
-  font-weight: 800px;
+.hero-banner h3 {
+  font-size: 28px;
+  color: #fff;
+  font-weight: 100;
+  line-height: 50px;
   text-align: center;
-  text-shadow: 1px 1px 6px grey;
-  line-height: 40px;
-  color:white;
+  text-shadow: 1px 1px 1px #111;
 }
-
-.about-me {
-  margin: 16px 16px 0;
-  width: 100%;
-  min-height: 100vh;
-  background-color: #f2f2f2;
-}
-
-.about-me img {
-  width: 35%;
-  float: left;
-}
-
-.about-me-bio {} */
-
-/* .index-links section {
-  margin: 16px 16px 0;
-  width: calc(100% - 32px);
-  height: 100px;
-  background-color: #f2f2f2;
-}
-
-.index-links section h3 {
-  font-size: 24px;
-  font-weight: 800px;
-  text-transform: uppercase;
-  line-height: 100px;
-  color:black;
-} */
