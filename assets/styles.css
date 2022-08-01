@@ -26,6 +26,25 @@ header .name-logo {
   text-align: center;
 }
 
+header nav ul {
+  display: block;
+  margin: 0 auto;
+  width: fit-content
+}
+
+header nav ul li {
+  display: inline-block;
+  float: left;
+  list-style: none;
+  padding: 0 16px;
+}
+
+header nav ul li a {  
+  font-size: 16px;
+  color: #111;
+  text-transform: uppercase;
+}
+
 /* .nav-section {
   background-color: #f3f3f3;
   width: 100px;
