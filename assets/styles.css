@@ -4,7 +4,17 @@
   padding: 0;
 }
 
-li,
+.nav-section {
+  background-color: #f3f3f3;
+  width: 100px;
+  height: 100px;
+}
+
+.nav-section .name-logo {
+  font-size: 24px;
+}
+
+/* li,
 a {
   font-size: 16px;
   color: black;
@@ -79,7 +89,21 @@ a {
   color:white;
 }
 
-.index-links section {
+.about-me {
+  margin: 16px 16px 0;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f2f2f2;
+}
+
+.about-me img {
+  width: 35%;
+  float: left;
+}
+
+.about-me-bio {} */
+
+/* .index-links section {
   margin: 16px 16px 0;
   width: calc(100% - 32px);
   height: 100px;
@@ -92,4 +116,4 @@ a {
   text-transform: uppercase;
   line-height: 100px;
   color:black;
-}
+} */
