@@ -2,7 +2,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: thistle;
 }
 
 li,
@@ -21,6 +20,12 @@ a {
 
 .name-logo {
   cursor: pointer;
+  transition: all 0.5s ease 0s;
+  font-size: 25px;
+}
+
+.name-logo:hover {
+  color: forestgreen
 }
 
 .nav-bar {
@@ -37,5 +42,9 @@ a {
 }
 
 .nav-bar li a:hover {
-  color: gainsboro;
+  color: forestgreen;
+}
+
+.hero-image {
+  width: 100%;
 }
