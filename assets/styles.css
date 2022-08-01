@@ -2,9 +2,31 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  text-decoration: none;
 }
 
-.nav-section {
+body {
+  background-color: #f2f2f2;
+}
+
+header {
+  background-color: #fff;
+  width: 100%;
+  height: 100px;
+}
+
+header .name-logo {
+  font-size: 24px;
+  font-weight: 900;
+  color: #111;
+  text-transform: uppercase;
+  display: block;
+  margin: 0 auto;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* .nav-section {
   background-color: #f3f3f3;
   width: 100px;
   height: 100px;
@@ -12,7 +34,7 @@
 
 .nav-section .name-logo {
   font-size: 24px;
-}
+} */
 
 /* li,
 a {
