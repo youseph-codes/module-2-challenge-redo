@@ -45,6 +45,33 @@ header nav ul li a {
   text-transform: uppercase;
 }
 
+@media only screen and (min-width: 1000px) {
+  header .name-logo {
+    margin: 31px 0;
+    padding: 0 20px 0 40px;
+    line-height: 40px;
+    float: left;
+    text-align: left;
+  }
+
+  header nav ul {
+    float: right;
+    margin: 20px 0px 0px 20px;
+  }
+  
+  header nav ul li {
+    display: inline-block;
+    float: none;
+    list-style: none;
+    padding: 0 16px;
+  }
+  
+  header nav ul li a {  
+    line-height: 60px;
+    font-weight: 600;
+  }
+}
+
 .hero-banner {
   width: 100%;
   height: calc(100vh - 100px);
