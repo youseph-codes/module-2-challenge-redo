@@ -171,3 +171,10 @@ header nav ul li a {
   text-align: center;
   text-decoration: underline;
 }
+
+footer {
+  width: 100%;
+  padding: 40px 40px;
+  margin-top: 20px;
+  background-color: #f2f2f2;
+}
